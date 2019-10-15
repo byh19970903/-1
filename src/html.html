@@ -1,0 +1,11 @@
+let obj1={
+    a1:[1,2,3],
+    a2:4,
+    a3:5
+  }
+  let obj2={...obj1}
+  console.log('obj2: ',obj2)
+  obj2.a2=666
+  obj2.a1[0]=7
+  console.log('obj1:',obj1)
+  console.log('obj2:',obj2)
